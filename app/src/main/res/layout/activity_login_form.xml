@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Login_form">
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="280dp"
+        android:layout_height="73dp"
+        android:background="@drawable/edit_text_border"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:hint="Enter Your Username"
+        android:textColor="#151414"
+        android:ems="10"
+        android:textColorHint="#1C1B1B"
+        android:textSize="25sp"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.564"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.041" />
+
+    <EditText
+        android:id="@+id/password_login"
+        android:layout_width="287dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="52dp"
+        android:hint="Enter the Password"
+        android:textColor="#151414"
+        android:fontFamily="cursive"
+        android:textSize="25sp"
+        android:textColorHint="#1C1B1B"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:background="@drawable/edit_text_border"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.653"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/username" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="157dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="116dp"
+        android:background="@drawable/edit_text_border_blue"
+        android:gravity="center"
+        android:text="Login"
+        android:textColor="#151414"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password_login" />
+
+    <Button
+        android:id="@+id/forgot_password"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Forgot Password"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toTopOf="@+id/login_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.867"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password_login"
+        app:layout_constraintVertical_bias="0.238" />
+
+    <LinearLayout
+        android:layout_width="297dp"
+        android:layout_height="182dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_button">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Need a new account"
+            android:textColor="#151414"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/signup_buttton"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up here"
+            android:textColor="@color/design_default_color_primary_dark"
+            android:textSize="17sp"
+
+            />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

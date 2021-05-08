@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "697551417781",
+    "project_id": "college-placement-f2c65",
+    "storage_bucket": "college-placement-f2c65.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:697551417781:android:393444c6533dbbba94e9fc",
+        "android_client_info": {
+          "package_name": "com.example.collegeplacement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "697551417781-2db0m81psq8nhk77rssus5ik29gb3g2m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9xJa03sb0Tkv4rNGWl1KhcGr7nTkyzsk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "697551417781-2db0m81psq8nhk77rssus5ik29gb3g2m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
